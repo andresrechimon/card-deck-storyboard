@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		836C00042B0BC01D00AFA133 /* carddecksortUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C00032B0BC01D00AFA133 /* carddecksortUITests.swift */; };
 		836C00062B0BC01D00AFA133 /* carddecksortUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C00052B0BC01D00AFA133 /* carddecksortUITestsLaunchTests.swift */; };
+		836C00132B0BC09200AFA133 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C00122B0BC09200AFA133 /* CardSelectionVC.swift */; };
+		836C00152B0BDAF500AFA133 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C00142B0BDAF500AFA133 /* Card.swift */; };
 		836CFFE32B0BC01C00AFA133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CFFE22B0BC01C00AFA133 /* AppDelegate.swift */; };
 		836CFFE52B0BC01C00AFA133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CFFE42B0BC01C00AFA133 /* SceneDelegate.swift */; };
-		836CFFE72B0BC01C00AFA133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836CFFE62B0BC01C00AFA133 /* ViewController.swift */; };
 		836CFFEA2B0BC01C00AFA133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836CFFE82B0BC01C00AFA133 /* Main.storyboard */; };
 		836CFFEC2B0BC01D00AFA133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836CFFEB2B0BC01D00AFA133 /* Assets.xcassets */; };
 		836CFFEF2B0BC01D00AFA133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836CFFED2B0BC01D00AFA133 /* LaunchScreen.storyboard */; };
@@ -38,10 +39,11 @@
 /* Begin PBXFileReference section */
 		836C00032B0BC01D00AFA133 /* carddecksortUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carddecksortUITests.swift; sourceTree = "<group>"; };
 		836C00052B0BC01D00AFA133 /* carddecksortUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carddecksortUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		836C00122B0BC09200AFA133 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		836C00142B0BDAF500AFA133 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		836CFFDF2B0BC01C00AFA133 /* carddecksort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carddecksort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836CFFE22B0BC01C00AFA133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		836CFFE42B0BC01C00AFA133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		836CFFE62B0BC01C00AFA133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		836CFFE92B0BC01C00AFA133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		836CFFEB2B0BC01D00AFA133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836CFFEE2B0BC01D00AFA133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,11 +112,12 @@
 			children = (
 				836CFFE22B0BC01C00AFA133 /* AppDelegate.swift */,
 				836CFFE42B0BC01C00AFA133 /* SceneDelegate.swift */,
-				836CFFE62B0BC01C00AFA133 /* ViewController.swift */,
 				836CFFE82B0BC01C00AFA133 /* Main.storyboard */,
 				836CFFEB2B0BC01D00AFA133 /* Assets.xcassets */,
 				836CFFED2B0BC01D00AFA133 /* LaunchScreen.storyboard */,
 				836CFFF02B0BC01D00AFA133 /* Info.plist */,
+				836C00122B0BC09200AFA133 /* CardSelectionVC.swift */,
+				836C00142B0BDAF500AFA133 /* Card.swift */,
 			);
 			path = carddecksort;
 			sourceTree = "<group>";
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836CFFE72B0BC01C00AFA133 /* ViewController.swift in Sources */,
 				836CFFE32B0BC01C00AFA133 /* AppDelegate.swift in Sources */,
 				836CFFE52B0BC01C00AFA133 /* SceneDelegate.swift in Sources */,
+				836C00132B0BC09200AFA133 /* CardSelectionVC.swift in Sources */,
+				836C00152B0BDAF500AFA133 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
